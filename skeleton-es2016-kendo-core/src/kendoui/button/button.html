@@ -1,0 +1,19 @@
+<template>
+    <require from="./button.css"></require>
+    <section>
+        <br>
+        <h3>Basic KendoUI Button API sample</h3>
+
+        <a href="https://github.com/aurelia-ui-toolkits/aurelia-kendoui-plugin/tree/master/sample/src/samples/button">See KendoUI Bridge button folder for more details</a>
+        <br>
+        <br>
+
+        &nbsp;&nbsp;<button ak-button="k-icon: ungroup; k-widget.bind: button" k-on-click.delegate="test()">Kendo UI Button</button>
+        <br>
+        <br>
+        <button ak-button click.delegate="button.enable(false)">Disable</button>
+        &nbsp;&nbsp;
+        <button ak-button click.delegate="button.enable(true)">Enable</button>
+
+    </section>
+</template>
