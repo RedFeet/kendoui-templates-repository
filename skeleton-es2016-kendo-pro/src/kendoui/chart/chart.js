@@ -4,7 +4,7 @@ export class BasicUse {
     type: 'line',
     line: {
       line: {
-        style: 'smooth'
+        css: 'smooth'
       }
     }
   };
